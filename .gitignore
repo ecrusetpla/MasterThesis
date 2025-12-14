@@ -145,9 +145,7 @@ env.bak/
 venv.bak/
 
 # Data
-*.csv
-*.xlsx
-*.parquet
+
 
 # Spyder project settings
 .spyderproject
