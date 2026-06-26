@@ -64,7 +64,8 @@ FEATURE_SETS = {
     "T+O+W+S": TOPO_FEATURES + OPS_WEATHER_FEATURES + SES_FEATURES,
 }
 
-TARGET = "Disrupted"
+# TARGET = "Disrupted"
+TARGET = "Significant_Disruption"
 
 
 def resolve_features(feature_list, available_cols):
