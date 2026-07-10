@@ -38,8 +38,8 @@ from feature_sets import FEATURE_SETS, TARGET, resolve_features
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-DATA_PATH   = Path("C:/Users/EduardCP/Documents/GitHub/MasterThesis/data/processed/modelling_panel_THRESHOLD.parquet")
-RESULTS_DIR = Path("C:/Users/EduardCP/Documents/GitHub/MasterThesis/results/tier2 THRESHOLD")
+DATA_PATH   = Path("../../data/processed/modelling_panel_THRESHOLD.parquet")
+RESULTS_DIR = Path("../../results/tier2 THRESHOLD")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------
@@ -415,7 +415,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-RESULTS_DIR = Path("C:/Users/EduardCP/Documents/GitHub/MasterThesis/results/tier2 THRESHOLD")
+RESULTS_DIR = Path("../../results/tier2 THRESHOLD")
 
 df = pd.read_csv(RESULTS_DIR / "tier2_all_seeds.csv")
 
@@ -503,8 +503,8 @@ from sklearn.metrics import (
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-DATA_PATH   = Path("C:/Users/EduardCP/Documents/GitHub/MasterThesis/data/processed/modelling_panel_THRESHOLD.parquet")
-RESULTS_DIR = Path("C:/Users/EduardCP/Documents/GitHub/MasterThesis/results/tier2 THRESHOLD")
+DATA_PATH   = Path("../../data/processed/modelling_panel_THRESHOLD.parquet")
+RESULTS_DIR = Path("../../results/tier2 THRESHOLD")
 
 # ---------------------------------------------------------------------------
 # Load panel and reproduce the same split + label as in training

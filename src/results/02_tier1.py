@@ -36,8 +36,8 @@ from feature_sets import FEATURE_SETS, TARGET, resolve_features
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-DATA_PATH   = Path("C:/Users/EduardCP/Documents/GitHub/MasterThesis/data/processed/modelling_panel_THRESHOLD.parquet")
-RESULTS_DIR = Path("C:/Users/EduardCP/Documents/GitHub/MasterThesis/results/tier1 THRESHOLD")
+DATA_PATH   = Path("../../data/processed/modelling_panel_THRESHOLD.parquet")
+RESULTS_DIR = Path("../../results/tier1 THRESHOLD")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------
